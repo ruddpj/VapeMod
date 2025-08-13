@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "P"
+  ],
+  "key": {
+    "#": "minecraft:dried_kelp",
+    "P": "minecraft:paper"
+  },
+  "result": {
+    "id": "vapemod:bio_vape",
+    "count": 1
+  }
+}

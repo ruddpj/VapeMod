@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "c",
+    "A"
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "c": "minecraft:copper_ingot",
+    "A": "minecraft:apple"
+  },
+  "result": {
+    "id": "vapemod:vape",
+    "count": 1
+  }
+}

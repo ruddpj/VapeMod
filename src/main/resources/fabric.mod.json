@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vapemod",
+	"version": "${version}",
+	"name": "VapeMod",
+	"description": "VapeNaysh",
+	"authors": [
+		"ruddez"
+	],
+	"contact": {
+		"homepage": "none",
+		"sources": "none"
+	},
+	"license": "MIT",
+	"icon": "assets/vapemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ruddez.vapemod.VapeMod"
+		],
+		"fabric-datagen": [
+			"net.ruddez.vapemod.VapeModDataGenerator"
+		],
+		"client": [
+			"net.ruddez.vapemod.VapeModClient"
+		]
+	},
+	"mixins": [
+		"vapemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
