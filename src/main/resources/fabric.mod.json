@@ -20,9 +20,6 @@
 		],
 		"fabric-datagen": [
 			"net.ruddez.vapemod.VapeModDataGenerator"
-		],
-		"client": [
-			"net.ruddez.vapemod.VapeModClient"
 		]
 	},
 	"mixins": [
