@@ -1,5 +1,7 @@
 package net.ruddez.vapemod.item;
 
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -10,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.ruddez.vapemod.VapeMod;
 import org.spongepowered.include.com.google.common.base.Function;
 
+@Environment(EnvType.SERVER)
 public class ModItems {
     public static final Item VAPE = registerItem("vape", Vape::new, new Vape.Settings());
     public static final Item BIG_VAPE = registerItem("big_vape", BigVape::new, new BigVape.Settings());
